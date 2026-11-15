@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Ayleid_UniqueCharacterBase" ParentName="ESCP_AyleidkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Ayleid_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Ayleid_Sorcerer_King</defName>
+        <label>Sorcerer-King</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>300</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Ayleid_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Ayleid_Military</li>
+                    <li>ESCP_Backstory_Ayleid_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Ayleid_Star_Reader>0</ESCP_Trait_Ayleid_Star_Reader>
+            <ESCP_Trait_Ayleid_Daedra_Sworn>0</ESCP_Trait_Ayleid_Daedra_Sworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Ayleid_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Ayleid_King</defName>
+        <label>King of Nenalata</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>250</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Ayleid_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Ayleid_Military</li>
+                    <li>ESCP_Backstory_Ayleid_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Ayleid_Star_Reader>0</ESCP_Trait_Ayleid_Star_Reader>
+            <ESCP_Trait_Ayleid_Daedra_Sworn>0</ESCP_Trait_Ayleid_Daedra_Sworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

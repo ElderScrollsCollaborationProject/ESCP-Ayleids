@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_FlowerKings</defName>
+        <label>the Flower Kings ranks</label>
+        <rootTier>ESCP_Rank_FlowerKings_Servant</rootTier>
+        <owningFaction>ESCP_Faction_Ayleid_Flower_Kings</owningFaction>
+        <collectiveNoun>the Flower Kings</collectiveNoun>
+        <drillLabel>Spell Duels</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Study the Varla Stones</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Inspect Their Raiment</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Polish the Welkynd Stones...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>For the Heartland!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Attend Your King</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Withdraw</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_FlowerKings_Servant</defName>
+        <label>servant</label>
+        <description>Serves an Ayleid lord and hopes to be noticed.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_FlowerKings_Retainer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_FlowerKings_Retainer</defName>
+        <label>retainer</label>
+        <description>Bound to an Ayleid house by oath and magic.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>5</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>400</Intellectual>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_FlowerKings_Sorcerer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_FlowerKings_Sorcerer</defName>
+        <label>sorcerer</label>
+        <description>Wields the light of meteoric glass and Welkynd stones.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>500</Intellectual>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_FlowerKings_Lord</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_FlowerKings_Lord</defName>
+        <label>lord</label>
+        <description>Holds a white-gold tower of their own.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>11</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>600</Intellectual>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_FlowerKings_SorcererKingsRightHand</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_FlowerKings_SorcererKingsRightHand</defName>
+        <label>sorcerer-king's right hand</label>
+        <description>Speaks for one of the Flower Kings of the Heartland.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>14</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>700</Intellectual>
+            <Melee>350</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

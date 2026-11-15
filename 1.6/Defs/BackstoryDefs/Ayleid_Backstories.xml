@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Marble_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Marble_Child</identifier>
+        <slot>Childhood</slot>
+        <title>marble hall child</title>
+        <titleShort>Hall child</titleShort>
+        <description>[PAWN_nameDef] grew up under glowing stones in a city where slaves washed the floor before anyone woke. For a long time [PAWN_pronoun] assumed floors simply were clean.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Slave_Runner</defName>
+        <identifier>ESCP_Backstory_Ayleid_Slave_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>slave pen runner</title>
+        <titleShort>Pen runner</titleShort>
+        <description>[PAWN_possessive] family ran pens outside Vilverin. [PAWN_nameDef] carried keys and messages through them from the age of six, and no one thought anything of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Well_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Well_Child</identifier>
+        <slot>Childhood</slot>
+        <title>well keeper's child</title>
+        <titleShort>Well child</titleShort>
+        <description>[PAWN_nameDef] held the lamp while [PAWN_possessive] parent gathered starlight at the Ayleid well, and picked up the words to the hymn before [PAWN_pronoun] knew they meant anything.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Flower_Page</defName>
+        <identifier>ESCP_Backstory_Ayleid_Flower_Page</identifier>
+        <slot>Childhood</slot>
+        <title>flower page</title>
+        <titleShort>Page</titleShort>
+        <description>At the royal court, pages scatter flowers before the king and pray they have picked the right ones. [PAWN_nameDef] once picked the wrong ones and has never told anyone what happened.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Masons_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Masons_Child</identifier>
+        <slot>Childhood</slot>
+        <title>mason's child</title>
+        <titleShort>Mason's</titleShort>
+        <description>[PAWN_nameDef] played on half-built vaults and knew a good keystone from a bad one by the sound it made when kicked.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Rebel_Orphan</defName>
+        <identifier>ESCP_Backstory_Ayleid_Rebel_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Alessia's orphan</title>
+        <titleShort>Orphan</titleShort>
+        <description>The rebels burned [PAWN_nameDef]'s city when [PAWN_pronoun] was young. A human soldier once looked straight at [PAWN_objective] and walked on. [PAWN_pronoun] has not yet decided how to feel about that.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>1</Shooting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Star_Pupil</defName>
+        <identifier>ESCP_Backstory_Ayleid_Star_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>star pupil</title>
+        <titleShort>Pupil</titleShort>
+        <description>Someone noticed that [PAWN_nameDef] could draw the sky from memory. After that there were tutors, then rooftop nights, and then no one asked [PAWN_objective] what [PAWN_pronoun] wanted anymore.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Daedra_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Daedra_Child</identifier>
+        <slot>Childhood</slot>
+        <title>altar child</title>
+        <titleShort>Altar child</titleShort>
+        <description>[PAWN_possessive] house kept a shrine to Molag Bal. [PAWN_nameDef] learned at an early age to hold very still during the service.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Social>1</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Marble_Guard</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Marble_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>marble guard</title>
+        <titleShort>Guard</titleShort>
+        <description>[PAWN_nameDef] stood in a white and gold harness on the palace stair. Guards there are expected to look pretty and kill without changing expression.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Slave_Catcher</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Slave_Catcher</identifier>
+        <slot>Adulthood</slot>
+        <title>slave catcher</title>
+        <titleShort>Catcher</titleShort>
+        <description>[PAWN_nameDef] rode the Nibenay valley after runaways with hounds and a list. In the end the runaways came back with an army.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sancre</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sancre</identifier>
+        <slot>Adulthood</slot>
+        <title>Sancre Tor defender</title>
+        <titleShort>Defender</titleShort>
+        <description>[PAWN_nameDef] was at Sancre Tor when the Nords and the slave armies came up the walls. Nearly everyone with any sense has stopped asking [PAWN_objective] about it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Archer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>tower archer</title>
+        <titleShort>Archer</titleShort>
+        <description>[PAWN_nameDef] loosed from high slits in a white tower for most of a life. Few enemies ever got close enough to learn [PAWN_possessive] face.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Feathered</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Feathered</identifier>
+        <slot>Adulthood</slot>
+        <title>Umaril's retainer</title>
+        <titleShort>Retainer</titleShort>
+        <description>[PAWN_nameDef] served the Unfeathered through the campaign against the Alessians, and saw him fall to Pelinal. [PAWN_pronoun] also saw him come back, and prefers not to discuss either.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Barsaebic_Exile</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Barsaebic_Exile</identifier>
+        <slot>Adulthood</slot>
+        <title>Black Marsh exile</title>
+        <titleShort>Exile</titleShort>
+        <description>[PAWN_nameDef] fled the Diaspora toward Black Marsh and was turned back at spearpoint by the Barsaebic Ayleids, who had got there first and didn't want the company.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sworn_Blade</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sworn_Blade</identifier>
+        <slot>Adulthood</slot>
+        <title>Daedra-sworn blade</title>
+        <titleShort>Sworn blade</titleShort>
+        <description>[PAWN_nameDef] gave a certain oath for a certain sword. The sword has been excellent. The other side of the deal has not come due yet.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Welkynd_Cutter</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Welkynd_Cutter</identifier>
+        <slot>Adulthood</slot>
+        <title>Welkynd cutter</title>
+        <titleShort>Cutter</titleShort>
+        <description>Starlight has to be caught in something. [PAWN_nameDef] shaped meteoric glass for the sorcerers, losing a little eyesight with each stone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>5</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Varla</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Varla</identifier>
+        <slot>Adulthood</slot>
+        <title>Varla binder</title>
+        <titleShort>Binder</titleShort>
+        <description>[PAWN_nameDef] made Varla stones, and knew exactly what kind of work the courts wanted them for. The money made that fairly easy to overlook.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Astrologer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Astrologer</identifier>
+        <slot>Adulthood</slot>
+        <title>court astrologer</title>
+        <titleShort>Astrologer</titleShort>
+        <description>[PAWN_nameDef] read the stars for a king who preferred good news. [PAWN_pronoun] survived by telling him the truth on days when he was too drunk to notice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Summoner</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Summoner</identifier>
+        <slot>Adulthood</slot>
+        <title>Daedra caller</title>
+        <titleShort>Caller</titleShort>
+        <description>[PAWN_nameDef] called up scamps for a noble house's parties. The trick, as with most things in a Flower Court, was making sure someone else was blamed afterward.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Necromancer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Necromancer</identifier>
+        <slot>Adulthood</slot>
+        <title>vault necromancer</title>
+        <titleShort>Necromancer</titleShort>
+        <description>The city's dead were expected to keep working. [PAWN_nameDef] saw to that from a cold room under the palace, and it never struck [PAWN_objective] as odd.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sky_Scholar</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sky_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>sky cartographer</title>
+        <titleShort>Cartographer</titleShort>
+        <description>[PAWN_nameDef] corrected the old sky charts, adding the stars that had moved and noting the one that had not been there before.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Master_Mason</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Master_Mason</identifier>
+        <slot>Adulthood</slot>
+        <title>vault architect</title>
+        <titleShort>Architect</titleShort>
+        <description>No mortar, a single keystone and a ceiling thirty paces up: [PAWN_nameDef] took pride in saying the vault would outlast the city, and it has.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>8</Construction>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Slave_Trader</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Slave_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>slave factor</title>
+        <titleShort>Factor</titleShort>
+        <description>[PAWN_nameDef] bought and sold people in Sedor and kept tidy records of it. There is a copy of those records in the hands of someone [PAWN_pronoun] would very much like to find.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Garden_Keeper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Garden_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>flower garden keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>The Flower Kings named themselves for something, and [PAWN_nameDef] grew it, in white terraces, using a great many hands other than [PAWN_possessive] own.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Feast_Cook</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Feast_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>palace cook</title>
+        <titleShort>Cook</titleShort>
+        <description>Nothing in a palace kitchen goes as simply as a meal. [PAWN_nameDef] cooked, tasted everything first, and took note of who else was tasting.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sculptor</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sculptor</identifier>
+        <slot>Adulthood</slot>
+        <title>tomb sculptor</title>
+        <titleShort>Sculptor</titleShort>
+        <description>[PAWN_nameDef] carved the faces of lords onto their tombs and improved all of them. Nobody has ever complained, and that is the main advantage of the work.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>8</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Diaspora_Trader</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Diaspora_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>Diaspora smuggler</title>
+        <titleShort>Smuggler</titleShort>
+        <description>As the cities fell, [PAWN_nameDef] moved elves and their relics out to the Direnni in High Rock, for prices that went up each month. [PAWN_pronoun] is not ashamed of this.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Freed_Noble</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Freed_Noble</identifier>
+        <slot>Adulthood</slot>
+        <title>ruined noble</title>
+        <titleShort>Ruined</titleShort>
+        <description>Once [PAWN_nameDef] owned forty slaves. Then the tower fell, and now [PAWN_pronoun] knows how to do [PAWN_possessive] own laundry, and resents it daily.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_White_Gold_Stair_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_White_Gold_Stair_Child</identifier>
+        <slot>Childhood</slot>
+        <title>White-Gold stair child</title>
+        <titleShort>Stair child</titleShort>
+        <description>White-Gold Tower has more steps than any child could count, and [PAWN_nameDef] was told to wash them. Lessons in humility came free with the bucket.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Vilverin_Water_Page</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Vilverin_Water_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Vilverin water-page</title>
+        <titleShort>Water page</titleShort>
+        <description>Vilverin's halls ran down below Lake Rumare, and the lords liked fresh water served in silver. [PAWN_nameDef] carried it from the upper wells and spilled only a little.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Sedor_Garden_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Sedor_Garden_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Sedor garden child</title>
+        <titleShort>Garden child</titleShort>
+        <description>Flowers of Sedor were planted in the shape of constellations. [PAWN_nameDef] knelt for hours to make sure the right ones bloomed in the right order.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Lindai_Lamp_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Lindai_Lamp_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Lindai lamp child</title>
+        <titleShort>Lamp child</titleShort>
+        <description>Welkynd stones need no oil, but the brackets do need polishing. [PAWN_nameDef] went from room to room at Lindai and learned which stones hummed and which ones didn't.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Nornalhorst_Pool_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Nornalhorst_Pool_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Nornalhorst pool child</title>
+        <titleShort>Pool child</titleShort>
+        <description>Nornalhorst's sacred pools kept their heat long into winter. [PAWN_nameDef] raked them clean and was told never to ask what had been dropped in.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Ceyatatar_Masons_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Ceyatatar_Masons_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Ceyatatar mason's child</title>
+        <titleShort>Mason's child</titleShort>
+        <description>White stone comes out of the quarry as dull gray, and the shine takes years of work. [PAWN_nameDef] rubbed it with sand until both hands bled and then got a second rag.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Malada_Bone_Sorter</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Malada_Bone_Sorter</identifier>
+        <slot>Childhood</slot>
+        <title>Malada bone sorter</title>
+        <titleShort>Bone sorter</titleShort>
+        <description>Many things were kept in the lower chambers of Malada, and not all had been fully dead for long. [PAWN_nameDef] got sent down to sort them and did not sleep well after.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Aurbic_Catechism_Pupil</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Aurbic_Catechism_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>Aurbic catechism pupil</title>
+        <titleShort>Catechism pupil</titleShort>
+        <description>Elements come in four kinds, and light is the fifth and greatest. [PAWN_nameDef] recited this every morning until the words stopped making any sense at all.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Meridias_Chorister</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Meridias_Chorister</identifier>
+        <slot>Childhood</slot>
+        <title>Meridia's chorister</title>
+        <titleShort>Chorister</titleShort>
+        <description>Meridia's worshippers in the old cities sang to her dawn. [PAWN_nameDef] was a high voice in the back row, chosen for tone and not for piety.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Molag_Bals_Page</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Molag_Bals_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Molag Bal's page</title>
+        <titleShort>Dark page</titleShort>
+        <description>Some of the houses of Nenalata served worse gods than Meridia. [PAWN_nameDef] grew up carrying goblets in a place where it was very unwise to ask what was in them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Star_Gallery_Sweeper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Star_Gallery_Sweeper</identifier>
+        <slot>Childhood</slot>
+        <title>Star Gallery sweeper</title>
+        <titleShort>Gallery sweeper</titleShort>
+        <description>Under each great city, a gallery was open to the night sky. [PAWN_nameDef] swept the floor and learned the patterns, as nobody thought to stop a sweeper from looking up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Highborns_Sibling</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Highborns_Sibling</identifier>
+        <slot>Childhood</slot>
+        <title>highborn's sibling</title>
+        <titleShort>Second-born</titleShort>
+        <description>The heir got the name, the tutor and the good room. [PAWN_nameDef] got the rest of the household's attention and made use of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Slave_Born_Half_Blood</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Slave_Born_Half_Blood</identifier>
+        <slot>Childhood</slot>
+        <title>slave-born half-blood</title>
+        <titleShort>Half-blood</titleShort>
+        <description>Nobody in the household would say who [PAWN_nameDef]'s father had been, though everybody knew. The child grew up pale and hungry, with a foot in both worlds.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Flesh_Garden_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Flesh_Garden_Child</identifier>
+        <slot>Childhood</slot>
+        <title>flesh-garden child</title>
+        <titleShort>Flesh garden child</titleShort>
+        <description>Slaves in that house had been grown and pruned and grafted into arrangements. [PAWN_nameDef] was told it was art and was given a small pair of shears.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Rebellion_Orphan</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Rebellion_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Rebellion orphan</title>
+        <titleShort>Rebellion orphan</titleShort>
+        <description>Alessia's army reached the valley in the spring, and the family's lands burned by summer. [PAWN_nameDef] was carried west by a servant who probably should have left the child behind.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Last_Winter_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Last_Winter_Child</identifier>
+        <slot>Childhood</slot>
+        <title>last-winter child</title>
+        <titleShort>Last-winter child</titleShort>
+        <description>The city was falling and everyone knew it. Meals got thinner, and [PAWN_nameDef] learned how to make soup out of what had once been a fine garden.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Valenwood_Bound_Refugee</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Valenwood_Bound_Refugee</identifier>
+        <slot>Childhood</slot>
+        <title>Valenwood-bound refugee</title>
+        <titleShort>Refugee</titleShort>
+        <description>The surviving families made it to Valenwood with what they could carry. [PAWN_nameDef] grew up among Bosmer who laughed at their manners and helped them anyway.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_High_Rock_Exile_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_High_Rock_Exile_Child</identifier>
+        <slot>Childhood</slot>
+        <title>High Rock exile child</title>
+        <titleShort>High Rock child</titleShort>
+        <description>Ayleid lords in High Rock were still lords, at least in their own halls. [PAWN_nameDef] grew up speaking the old tongue indoors and something else outside.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Barsaebic_Novice</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Barsaebic_Novice</identifier>
+        <slot>Childhood</slot>
+        <title>Barsaebic novice</title>
+        <titleShort>Barsaebic novice</titleShort>
+        <description>In the western lands, the Barsaebic houses kept to Daedra-free worship, and were proud of it. [PAWN_nameDef] learned the distinction and was told to mention it often.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Niben_River_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Niben_River_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Niben river child</title>
+        <titleShort>River child</titleShort>
+        <description>Boats on the Niben brought tribute to the upriver cities. [PAWN_nameDef] grew up fishing from the white quay and looking down at the slaves working the oars.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Varla_Stone_Carrier</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Varla_Stone_Carrier</identifier>
+        <slot>Childhood</slot>
+        <title>varla stone carrier</title>
+        <titleShort>Stone carrier</titleShort>
+        <description>Varla stones are heavier than they look and they make your teeth ache. [PAWN_nameDef] carried them up the shaft, wrapped in cloth, and was warned not to drop one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Ayleid_Well_Keepers_Aide</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Ayleid_Well_Keepers_Aide</identifier>
+        <slot>Childhood</slot>
+        <title>Ayleid well keeper's aide</title>
+        <titleShort>Well aide</titleShort>
+        <description>Great stone wells hummed along the old roads, and they drank power from the stars. [PAWN_nameDef] oiled the caps and kept the sheep off.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Dancing_Pupil</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Dancing_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>dancing pupil</title>
+        <titleShort>Dancing pupil</titleShort>
+        <description>Court dances ran six hours and had as many rules as a treaty. [PAWN_nameDef] could perform them flawlessly at nine and was deeply bored at ten.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Kennel_Slaves_Friend</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Kennel_Slaves_Friend</identifier>
+        <slot>Childhood</slot>
+        <title>kennel slave's friend</title>
+        <titleShort>Kennel friend</titleShort>
+        <description>Hounds at the great house were very well fed, and so was the Nedic slave who kept them. [PAWN_nameDef] spent long days in the kennels and heard a lot of forbidden songs.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Lesser_Cousin</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Lesser_Cousin</identifier>
+        <slot>Childhood</slot>
+        <title>lesser cousin</title>
+        <titleShort>Lesser cousin</titleShort>
+        <description>All Ayleid families have a cousin who eats at the second table. [PAWN_nameDef] sat there, waiting and watching those who sat at the first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Torch_Bearer_Of_The_Tower</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Torch_Bearer_Of_The_Tower</identifier>
+        <slot>Childhood</slot>
+        <title>torch-bearer of the Tower</title>
+        <titleShort>Torch-bearer</titleShort>
+        <description>At the great festivals, a row of children walked up White-Gold with burning torches. [PAWN_nameDef] walked in the very middle and got wax all down the good robes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Silver_Spoon_Thief</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Silver_Spoon_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>silver-spoon thief</title>
+        <titleShort>Spoon thief</titleShort>
+        <description>Silver spoons were counted at the close of each banquet, a rule made in part for [PAWN_nameDef]. Slave children got blamed instead, which started to bother [PAWN_objective] later.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Fountain_Builders_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Fountain_Builders_Child</identifier>
+        <slot>Childhood</slot>
+        <title>fountain builder's child</title>
+        <titleShort>Fountain child</titleShort>
+        <description>A fountain with no moving parts is a kind of very slow spell. [PAWN_nameDef] helped set the stones, and once got a stern look from one for doing it wrong.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Court_Astronomers_Page</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Court_Astronomers_Page</identifier>
+        <slot>Childhood</slot>
+        <title>court astronomer's page</title>
+        <titleShort>Astronomer's page</titleShort>
+        <description>Instruments at the top of the tower needed someone small enough to reach the inner dials. [PAWN_nameDef] came to know the night sky by way of its gears and shadows.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Colovian_Frontier_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Colovian_Frontier_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Colovian frontier child</title>
+        <titleShort>Frontier child</titleShort>
+        <description>The farther west an Ayleid family lived, the more they were sneered at back in the Heartland. [PAWN_nameDef] grew up on the frontier, tough, and shooting at Nedes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Sewer_Child_Of_Sancre_Tor</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Sewer_Child_Of_Sancre_Tor</identifier>
+        <slot>Childhood</slot>
+        <title>sewer child of Sancre Tor</title>
+        <titleShort>Sewer child</titleShort>
+        <description>Water at Sancre Tor ran down through stone tunnels, and not all the children who went in had been sent. [PAWN_nameDef] came to know those tunnels better than any guard.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Embroidery_Pupil</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Embroidery_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>embroidery pupil</title>
+        <titleShort>Embroidery pupil</titleShort>
+        <description>Every Ayleid robe tells a story in thread, usually about the wearer's ancestors. [PAWN_nameDef] sewed a very flattering one on a very dull uncle at age eight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Tomb_Candle_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Tomb_Candle_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tomb-candle child</title>
+        <titleShort>Tomb child</titleShort>
+        <description>Family tombs were visited on set days and had to be ready in time. [PAWN_nameDef] went ahead to light the lamps and say something polite to the older relatives.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Nedic_Nurses_Charge</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Nedic_Nurses_Charge</identifier>
+        <slot>Childhood</slot>
+        <title>Nedic nurse's charge</title>
+        <titleShort>Nurse's charge</titleShort>
+        <description>Each Ayleid child had a Nedic nurse and was told not to get too fond. [PAWN_nameDef] did, and the nurse was sold on anyway when the child turned six.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Cat_Keeper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Cat_Keeper</identifier>
+        <slot>Childhood</slot>
+        <title>cat-keeper</title>
+        <titleShort>Cat-keeper</titleShort>
+        <description>White cats wandered the courts of Lindai and were treated rather better than most people. [PAWN_nameDef] brushed them for a living, and was bitten by all of the best ones.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Pelinals_Shadow</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Pelinals_Shadow</identifier>
+        <slot>Childhood</slot>
+        <title>Pelinal's shadow</title>
+        <titleShort>Pelinal's shadow</titleShort>
+        <description>When [PAWN_nameDef] was small, a very large man in strange armor walked through the city and everyone in the household died. That's the entire memory, and it's more than enough.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Bronze_Mirror_Polisher</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Bronze_Mirror_Polisher</identifier>
+        <slot>Childhood</slot>
+        <title>bronze mirror polisher</title>
+        <titleShort>Mirror polisher</titleShort>
+        <description>Mirrors at the great house lined a long hall, designed so that lords could see themselves coming. [PAWN_nameDef] had to clean them before the morning's parade.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Rain_Channel_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Rain_Channel_Child</identifier>
+        <slot>Childhood</slot>
+        <title>rain-channel child</title>
+        <titleShort>Channel child</titleShort>
+        <description>The city's rain came down in channels of carved white stone. [PAWN_nameDef] went along them with a stick and cleared the leaves when the storms were past.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Ruined_Tower_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Ruined_Tower_Child</identifier>
+        <slot>Childhood</slot>
+        <title>ruined-tower child</title>
+        <titleShort>Ruin child</titleShort>
+        <description>Long after the fall, [PAWN_nameDef]'s family was still living in the top of a broken tower. Everything they had was dug up from the floors below.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Hidden_Valley_Child</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Hidden_Valley_Child</identifier>
+        <slot>Childhood</slot>
+        <title>hidden-valley child</title>
+        <titleShort>Hidden valley child</titleShort>
+        <description>A few Ayleids survived in a valley no one had any reason to enter. [PAWN_nameDef] was told that the world outside had ended, and half believed it for years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Poets_Scribe</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Poets_Scribe</identifier>
+        <slot>Childhood</slot>
+        <title>poet's scribe</title>
+        <titleShort>Poet's scribe</titleShort>
+        <description>A very old relative dictated very long verses to [PAWN_nameDef] about a dead city. Nobody else read them, but the child's spelling became extremely good.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Child_Meadow_Hunting_Page</defName>
+        <identifier>ESCP_Backstory_Ayleid_Child_Meadow_Hunting_Page</identifier>
+        <slot>Childhood</slot>
+        <title>meadow-hunting page</title>
+        <titleShort>Hunting page</titleShort>
+        <description>A lord's hunt was preceded by a line of children beating the grass. [PAWN_nameDef] walked in that line and noticed that the game was not always animal.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_White_Gold_Guardsman</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_White_Gold_Guardsman</identifier>
+        <slot>Adulthood</slot>
+        <title>White-Gold guardsman</title>
+        <titleShort>White-Gold guard</titleShort>
+        <description>Guards at White-Gold wore enough silver to buy a small town, and they rarely fought. [PAWN_nameDef] did a little fighting there, right at the end, and it was very short.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Rebel_Queens_Prisoner</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Rebel_Queens_Prisoner</identifier>
+        <slot>Adulthood</slot>
+        <title>Rebel-Queen's prisoner</title>
+        <titleShort>Rebel prisoner</titleShort>
+        <description>Alessia's people had good reason to put an Ayleid to work. [PAWN_nameDef] broke rock for three years for a slave army, and came away with an unusual perspective.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sedor_Sentinel</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sedor_Sentinel</identifier>
+        <slot>Adulthood</slot>
+        <title>Sedor sentinel</title>
+        <titleShort>Sedor sentinel</titleShort>
+        <description>Sedor's gardens were guarded better than its vaults. [PAWN_nameDef] once killed a thief for stepping on a rare white lily, and was commended.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Nenalatas_Horseman</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Nenalatas_Horseman</identifier>
+        <slot>Adulthood</slot>
+        <title>Nenalata's horseman</title>
+        <titleShort>Nenalata rider</titleShort>
+        <description>Heavy cavalry out of Nenalata had once been a fearsome sight, though there were few left to see it. [PAWN_nameDef] rode with them and still knows the old commands.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Maladas_Butcher</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Maladas_Butcher</identifier>
+        <slot>Adulthood</slot>
+        <title>Malada's butcher</title>
+        <titleShort>Malada butcher</titleShort>
+        <description>Prisoners at Malada could look forward to a variety of ends. [PAWN_nameDef] was the end you got if the lord happened to be busy that day.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Colovian_Border_Captain</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Colovian_Border_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>Colovian border captain</title>
+        <titleShort>Border captain</titleShort>
+        <description>Nedic hill tribes raided the border, and the border was all [PAWN_nameDef] ever knew. Heartland nobles sent new orders and fine wine, and never any men.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Mirror_Shield_Bearer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Mirror_Shield_Bearer</identifier>
+        <slot>Adulthood</slot>
+        <title>mirror-shield bearer</title>
+        <titleShort>Mirror-shield bearer</titleShort>
+        <description>Polished shields would reflect magic, or at the very least would blind a peasant. [PAWN_nameDef] stood in the front rank of a parade unit that found itself in a real war.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Barsaebic_Marshal</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Barsaebic_Marshal</identifier>
+        <slot>Adulthood</slot>
+        <title>Barsaebic marshal</title>
+        <titleShort>Barsaebic marshal</titleShort>
+        <description>[PAWN_nameDef]'s lords sided with Alessia's rebels against their own, for reasons of doctrine and also of land. Neither side has really forgiven this.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Slave_Army_Officer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Slave_Army_Officer</identifier>
+        <slot>Adulthood</slot>
+        <title>slave-army officer</title>
+        <titleShort>Slave officer</titleShort>
+        <description>Ayleid lords did not want to fight in person, so they put spears in the hands of their slaves. [PAWN_nameDef] had the job of pointing them the right way, and watching their backs.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sancre_Tor_Rearguard</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sancre_Tor_Rearguard</identifier>
+        <slot>Adulthood</slot>
+        <title>Sancre Tor rearguard</title>
+        <titleShort>Rearguard</titleShort>
+        <description>The Tor was almost impossible to take, until someone opened a door. [PAWN_nameDef] held a corridor there for most of a day, and never did find out who.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Umarils_Herald</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Umarils_Herald</identifier>
+        <slot>Adulthood</slot>
+        <title>Umaril's herald</title>
+        <titleShort>Umaril's herald</titleShort>
+        <description>Umaril the Unfeathered had a Daedra lord's backing and needed somebody to read out his terms. [PAWN_nameDef] did this at a number of gates, in a clear and carrying voice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_War_Party_Scout</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_War_Party_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>war-party scout</title>
+        <titleShort>War scout</titleShort>
+        <description>The great Ayleid roads were straight and easy to watch. [PAWN_nameDef] stayed off them and watched from the woods, counting how many came along them and how armed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Daedra_Handler</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Daedra_Handler</identifier>
+        <slot>Adulthood</slot>
+        <title>Daedra-handler</title>
+        <titleShort>Daedra-handler</titleShort>
+        <description>A summoned creature is expensive, and it needs someone to stay by it on the battlefield. [PAWN_nameDef] walked out in front with a whip and a very long list of warnings.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Tower_Sniper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Tower_Sniper</identifier>
+        <slot>Adulthood</slot>
+        <title>tower sniper</title>
+        <titleShort>Tower sniper</titleShort>
+        <description>Arrow-slits in an Ayleid tower sit at the exact angles of a star chart. [PAWN_nameDef] thought that was stupid until it turned out to put every approach in range.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Road_Patrol_Knight</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Road_Patrol_Knight</identifier>
+        <slot>Adulthood</slot>
+        <title>road patrol knight</title>
+        <titleShort>Road knight</titleShort>
+        <description>The road between Vilverin and the Tower had to be kept free of bandits, a term that came to cover a lot of the population. [PAWN_nameDef] rode it for decades.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>2</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Last_Flower_Kings_Guard</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Last_Flower_Kings_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>last Flower King's guard</title>
+        <titleShort>King's guard</titleShort>
+        <description>Flower Kings were always followed by someone holding a sword. [PAWN_nameDef] went on following one through three defeats and a long boat journey into exile.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Exile_Mercenary</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Exile_Mercenary</identifier>
+        <slot>Adulthood</slot>
+        <title>exile mercenary</title>
+        <titleShort>Exile mercenary</titleShort>
+        <description>Without a city left to serve, a well-trained Ayleid could still earn. [PAWN_nameDef] sold [PAWN_possessive] sword around Tamriel for centuries and spoke of it to nobody.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Hunting_Party_Master</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Hunting_Party_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>hunting-party master</title>
+        <titleShort>Hunt master</titleShort>
+        <description>Great lords kept a hunting master, and did not always hunt deer. [PAWN_nameDef] ran these parties for a while and then made sure not to dwell on the memory.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Welkynd_Priest</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Welkynd_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Welkynd priest</title>
+        <titleShort>Welkynd priest</titleShort>
+        <description>Light fell from Aetherius by way of the stones, and the stones needed proper tending. [PAWN_nameDef] blessed each one and kept a very careful count.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Star_Well_Tender</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Star_Well_Tender</identifier>
+        <slot>Adulthood</slot>
+        <title>star-well tender</title>
+        <titleShort>Star-well tender</titleShort>
+        <description>Those great wells along the road drank in starlight and gave it out to anybody who knew how. [PAWN_nameDef] walked between six of them for two centuries.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Flesh_Sculptor</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Flesh_Sculptor</identifier>
+        <slot>Adulthood</slot>
+        <title>flesh sculptor</title>
+        <titleShort>Flesh sculptor</titleShort>
+        <description>Lords of the old cities had their slaves reshaped for the sake of an evening's amusement. [PAWN_nameDef] did this work with enormous skill and doesn't think about it often.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Meridian_Lightbearer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Meridian_Lightbearer</identifier>
+        <slot>Adulthood</slot>
+        <title>Meridian lightbearer</title>
+        <titleShort>Lightbearer</titleShort>
+        <description>Meridia's favor came as a light in the hand, and some of her faithful could use it on undead. [PAWN_nameDef] walked Malada's lower halls and tidied up what was found.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Medicine>3</Medicine>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Molag_Bals_Confessor</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Molag_Bals_Confessor</identifier>
+        <slot>Adulthood</slot>
+        <title>Molag Bal's confessor</title>
+        <titleShort>Confessor</titleShort>
+        <description>Heads of certain houses wanted someone who could listen to them and then pass it upward. [PAWN_nameDef] served that purpose, and has a very clear idea of what Molag Bal is.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Elemental_Binder</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Elemental_Binder</identifier>
+        <slot>Adulthood</slot>
+        <title>elemental binder</title>
+        <titleShort>Elemental binder</titleShort>
+        <description>Ayleid doctrine holds that Earth, Water, Air and Fire are all four corners of one great chain. [PAWN_nameDef] could call a flame by its proper name, and did so on occasion.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Tomb_Warden</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Tomb_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>tomb warden</title>
+        <titleShort>Tomb warden</titleShort>
+        <description>Dead Ayleids stay in their tombs, unless someone has a use for them. [PAWN_nameDef] kept a family's ancestors in good order and in decent standing at the door.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Magna_Ge_Astrologer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Magna_Ge_Astrologer</identifier>
+        <slot>Adulthood</slot>
+        <title>Magna Ge astrologer</title>
+        <titleShort>Star astrologer</titleShort>
+        <description>Magnus left through a hole and left others behind him, and they're all up there. [PAWN_nameDef] named a good many of them, and insisted that the charts proved their favor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sound_Stone_Singer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sound_Stone_Singer</identifier>
+        <slot>Adulthood</slot>
+        <title>sound-stone singer</title>
+        <titleShort>Stone singer</titleShort>
+        <description>Certain pillars of white stone will ring if addressed in the correct tone. [PAWN_nameDef] sang them awake for feasts, and sometimes for other, less musical reasons.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Poisoner_Of_The_Court</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Poisoner_Of_The_Court</identifier>
+        <slot>Adulthood</slot>
+        <title>poisoner of the court</title>
+        <titleShort>Court poisoner</titleShort>
+        <description>Ayleid politics are older than most nations, and a bad dinner was a normal part of them. [PAWN_nameDef] served three different families, and outlived all of them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Necromancer_Of_Vilverin</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Necromancer_Of_Vilverin</identifier>
+        <slot>Adulthood</slot>
+        <title>necromancer of Vilverin</title>
+        <titleShort>Vilverin necromancer</titleShort>
+        <description>Below the water line at Vilverin, certain lords kept their dead working. [PAWN_nameDef] saw to their upkeep and thought the skeletons more reliable than the slaves.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Exile_Magister</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Exile_Magister</identifier>
+        <slot>Adulthood</slot>
+        <title>exile magister</title>
+        <titleShort>Exile magister</titleShort>
+        <description>Arriving at Summerset after the fall, [PAWN_nameDef] expected a welcome as kin. Altmer treated the visitor as an embarrassing relative and asked to see the old texts.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Illusionist_Of_The_Heartland</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Illusionist_Of_The_Heartland</identifier>
+        <slot>Adulthood</slot>
+        <title>illusionist of the Heartland</title>
+        <titleShort>Illusionist</titleShort>
+        <description>Halls of Lindai seemed larger with certain lights, and banquets more lavish. [PAWN_nameDef] made sure the lords saw their city as it no longer quite was.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Ward_Stone_Cutter</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Ward_Stone_Cutter</identifier>
+        <slot>Adulthood</slot>
+        <title>ward-stone cutter</title>
+        <titleShort>Ward-stone cutter</titleShort>
+        <description>Most of the old Ayleid traps are still working, thanks to people like [PAWN_nameDef]. Each glyph was cut to a tolerance no Dwemer would've sneered at.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Court_Alchemist</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Court_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>court alchemist</title>
+        <titleShort>Court alchemist</titleShort>
+        <description>Sedor's flowers go into remedies, perfumes and other things the household preferred not to discuss. [PAWN_nameDef] tended the stills and tested on whoever had displeased.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Daedric_Contract_Keeper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Daedric_Contract_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Daedric contract-keeper</title>
+        <titleShort>Contract-keeper</titleShort>
+        <description>Agreements with Daedra Princes run to many pages and don't end when you die. [PAWN_nameDef] kept a great house's contracts and could read the fine print.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Sky_Reader_In_Exile</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Sky_Reader_In_Exile</identifier>
+        <slot>Adulthood</slot>
+        <title>sky reader in exile</title>
+        <titleShort>Sky reader</titleShort>
+        <description>A Star Gallery is hard to build in a Valenwood bog. [PAWN_nameDef] managed something similar with a clearing and some borrowed bones, and the Bosmer were mildly amused.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Master_Of_The_Feast</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Master_Of_The_Feast</identifier>
+        <slot>Adulthood</slot>
+        <title>master of the feast</title>
+        <titleShort>Feast master</titleShort>
+        <description>A feast at Lindai served meat from a lot of unusual sources. [PAWN_nameDef] saw to every part of it, and was the only one there sober enough to know what was on the table.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Marble_Quarry_Overseer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Marble_Quarry_Overseer</identifier>
+        <slot>Adulthood</slot>
+        <title>marble quarry overseer</title>
+        <titleShort>Quarry overseer</titleShort>
+        <description>White stone came out of the Nibenay hills, and slaves came out in worse condition. [PAWN_nameDef] ran the quarry and sent in the numbers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Flower_Merchant</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Flower_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>flower merchant</title>
+        <titleShort>Flower merchant</titleShort>
+        <description>Rare blooms from Sedor could fetch the price of a horse. [PAWN_nameDef] sold them to lords who gave them to other lords, and was careful to send the right colors.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Household_Steward</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Household_Steward</identifier>
+        <slot>Adulthood</slot>
+        <title>household steward</title>
+        <titleShort>Steward</titleShort>
+        <description>Great houses employ a single person who knows where everything is, including the bodies. [PAWN_nameDef] served in that role for ninety years and wrote nothing down.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Silver_Smith</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Silver_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>silver smith</title>
+        <titleShort>Silversmith</titleShort>
+        <description>Ayleid tables were set with silver so fine it could be bent by hand. [PAWN_nameDef] made the pieces and got to eat with a horn spoon.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Tribute_Collector</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Tribute_Collector</identifier>
+        <slot>Adulthood</slot>
+        <title>tribute collector</title>
+        <titleShort>Tribute collector</titleShort>
+        <description>Nedic villages paid in grain, cattle and sometimes their children. [PAWN_nameDef] rode out twice a year with a list, and rode back with a very long line.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Stone_Road_Builder</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Stone_Road_Builder</identifier>
+        <slot>Adulthood</slot>
+        <title>stone-road builder</title>
+        <titleShort>Road builder</titleShort>
+        <description>Those roads are still there, under a great deal of later road. [PAWN_nameDef] cut the first course and was certain it would last, which turned out to be correct.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Garden_Landscaper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Garden_Landscaper</identifier>
+        <slot>Adulthood</slot>
+        <title>garden landscaper</title>
+        <titleShort>Landscaper</titleShort>
+        <description>Whole hillsides were moved to give a lord a better view of the sunset. [PAWN_nameDef] directed the work and got a very nice letter of thanks.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Bathhouse_Attendant</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Bathhouse_Attendant</identifier>
+        <slot>Adulthood</slot>
+        <title>bathhouse attendant</title>
+        <titleShort>Bath attendant</titleShort>
+        <description>The great lords relaxed in the bathhouse, and they talked as if nobody else were there. [PAWN_nameDef] brought the towels and remembered every word of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Tapestry_Dyer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Tapestry_Dyer</identifier>
+        <slot>Adulthood</slot>
+        <title>tapestry dyer</title>
+        <titleShort>Tapestry dyer</titleShort>
+        <description>Star-blue, the deepest color in the Heartland, can only be got from one rare shell. [PAWN_nameDef] had the recipe, and two very unpleasant visitors who wanted it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Wine_Steward_Of_Nenalata</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Wine_Steward_Of_Nenalata</identifier>
+        <slot>Adulthood</slot>
+        <title>wine steward of Nenalata</title>
+        <titleShort>Wine steward</titleShort>
+        <description>Nenalata's cellars went a long way down, and some of what was stored there was older than the Empire. [PAWN_nameDef] knew each vintage and how to serve it to an enemy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>5</Cooking>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Slave_Market_Auctioneer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Slave_Market_Auctioneer</identifier>
+        <slot>Adulthood</slot>
+        <title>slave market auctioneer</title>
+        <titleShort>Auctioneer</titleShort>
+        <description>Nobody ever had a better voice for the job, or a stronger stomach. [PAWN_nameDef] worked a market on the Niben that stayed busy until the very last week.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Boat_Builder_Of_Rumare</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Boat_Builder_Of_Rumare</identifier>
+        <slot>Adulthood</slot>
+        <title>boat-builder of Rumare</title>
+        <titleShort>Boat builder</titleShort>
+        <description>Slender white boats plied Lake Rumare in great numbers before the fall. [PAWN_nameDef] built them to a design that no one has quite managed to copy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Gem_Cutter</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Gem_Cutter</identifier>
+        <slot>Adulthood</slot>
+        <title>gem cutter</title>
+        <titleShort>Gem cutter</titleShort>
+        <description>Meteoric glass and star sapphire don't forgive a wrong cut. [PAWN_nameDef] worked by Welkynd light with a very steady hand and rarely spoke.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Court_Genealogist</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Court_Genealogist</identifier>
+        <slot>Adulthood</slot>
+        <title>court genealogist</title>
+        <titleShort>Genealogist</titleShort>
+        <description>Every Ayleid family traces its line back to the et'Ada, by way of some rather convenient marriages. [PAWN_nameDef] drew the charts and took the money.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Nedic_Overseer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Nedic_Overseer</identifier>
+        <slot>Adulthood</slot>
+        <title>Nedic overseer</title>
+        <titleShort>Nedic overseer</titleShort>
+        <description>It was unusual for an Ayleid house to hire one of the slaves' own to watch them. [PAWN_nameDef] came to take that as a kind of compliment, at least until the Rebellion.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Animals>2</Animals>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Wandering_Relic_Peddler</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Wandering_Relic_Peddler</identifier>
+        <slot>Adulthood</slot>
+        <title>wandering relic peddler</title>
+        <titleShort>Relic peddler</titleShort>
+        <description>Centuries after the fall, some folk still pay for a real Ayleid trinket. [PAWN_nameDef] sells them and is a bit of a trinket [PAWN_objective]self, if anyone cared to look closely.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Ruin_Dwelling_Hermit</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Ruin_Dwelling_Hermit</identifier>
+        <slot>Adulthood</slot>
+        <title>ruin-dwelling hermit</title>
+        <titleShort>Ruin hermit</titleShort>
+        <description>[PAWN_nameDef] came back to the old city after it had been empty for six hundred years and moved into the smallest room. There were fewer stairs to worry about.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+            <Construction>3</Construction>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Bosmer_Town_Tailor</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Bosmer_Town_Tailor</identifier>
+        <slot>Adulthood</slot>
+        <title>Bosmer-town tailor</title>
+        <titleShort>Exile tailor</titleShort>
+        <description>Ayleid cuts look strange on anyone in Valenwood, but they pay. [PAWN_nameDef] made a modest living in Arenthia sewing elegant robes with hide.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Hidden_Court_Cook</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Hidden_Court_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>hidden-court cook</title>
+        <titleShort>Hidden cook</titleShort>
+        <description>Dinner for the last of a noble line can be set out with the same care, even if it's boiled root. [PAWN_nameDef] served the last lord in the valley on the last good plate.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Cistern_Keeper</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Cistern_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>cistern keeper</title>
+        <titleShort>Cistern keeper</titleShort>
+        <description>Rain for the whole district ran into a vast chamber held up by carved pillars. [PAWN_nameDef] kept it clean and got to know its echoes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>5</Construction>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Perfume_Maker</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Perfume_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>perfume maker</title>
+        <titleShort>Perfume maker</titleShort>
+        <description>Nobody in the Heartland wanted to smell like what the slave quarters smelled like. [PAWN_nameDef] sold them a solution, in tiny silver bottles at terrible prices.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Plants>4</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Tomb_Robber</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Tomb_Robber</identifier>
+        <slot>Adulthood</slot>
+        <title>tomb robber</title>
+        <titleShort>Tomb robber</titleShort>
+        <description>Sometimes a family goes broke and has to rob its own ancestors. [PAWN_nameDef] went down with a sack and an apologetic manner, and said the correct prayers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Estate_Farmer</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Estate_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>estate farmer</title>
+        <titleShort>Estate farmer</titleShort>
+        <description>Lords like to pretend food arrives by magic, and at some estates it was close. [PAWN_nameDef] oversaw the real thing, with oxen, on the last free land in the valley.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Ayleid_Adult_Old_Language_Teacher</defName>
+        <identifier>ESCP_Backstory_Ayleid_Adult_Old_Language_Teacher</identifier>
+        <slot>Adulthood</slot>
+        <title>old language teacher</title>
+        <titleShort>Language teacher</titleShort>
+        <description>Ayleidoon isn't spoken anywhere now, except in a few households and by some Imperial scholars. [PAWN_nameDef] teaches it to those who ask, with very stern corrections.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Ayleid_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

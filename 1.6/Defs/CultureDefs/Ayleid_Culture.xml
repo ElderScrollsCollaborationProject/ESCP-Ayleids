@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Ayleid</defName>
+        <label>Ayleid</label>
+        <description>The culture of the Wild Elves of Cyrodiil, built on ceremony, stars and white marble. Each city was its own small kingdom. Few people outside it know how much of that beauty rested on slaves, and everyone inside it did.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Ayleid_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Ayleid_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Ayleid</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Ayleid</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Ayleid</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Ayleid</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Ayleid</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Ayleid</defName>
+        <label>Ayleid</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Ayleid_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Ayleid_Names_Male] [ESCP_Ayleid_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Ayleid_Names_Male->Names/ESCP_Ayleid_Names_Male</li>
+                <li>ESCP_Ayleid_Names_Last->Names/ESCP_Ayleid_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Ayleid_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Ayleid_Names_Female] [ESCP_Ayleid_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Ayleid_Names_Female->Names/ESCP_Ayleid_Names_Female</li>
+                <li>ESCP_Ayleid_Names_Last->Names/ESCP_Ayleid_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Ayleid</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Flower King</li>
+                <li>r_leaderTitle->Sorcerer-King</li>
+                <li>r_leaderTitle->Lord of the White Tower</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Ayleid</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Meridia</li>
+                <li>hyphenPrefix->Welkynd</li>
+                <li>hyphenPrefix->Varla</li>
+                <li>hyphenPrefix->Aedric</li>
+                <li>r_ideoName->The Four Elements and the Light</li>
+                <li>r_ideoName->The Flower Courts</li>
+                <li>r_ideoName->The Star-Rite</li>
+                <li>r_ideoName->The Old Bargains</li>
+                <li>r_ideoAdjective->Ayleid</li>
+                <li>r_ideoAdjective->Aurbic</li>
+                <li>r_memberName->Votary</li>
+                <li>r_memberName->Star-reader</li>
+                <li>r_memberName->Adherent</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Ayleid</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Magnus</li>
+                <li>r_deityName->Meridia</li>
+                <li>r_deityName->Molag Bal</li>
+                <li>r_deityName->Dagon</li>
+                <li>r_deityName->Auri-El</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Ayleid</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->whose flight tore open the stars</li>
+                <li>r_deityType->lady of infinite energies and of the sworn sword</li>
+                <li>r_deityType->king of domination, patron of cruel courts</li>
+                <li>r_deityType->lord of destruction</li>
+                <li>r_deityType->the old king of the elven gods</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Ayleid</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Night of Open Stars</li>
+                <li>festivalName->The Lighting of Varla</li>
+                <li>festivalName->The Flower Procession</li>
+                <li>festivalName->The Slave's Feast</li>
+                <li>festivalName->The Marble Vigil</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

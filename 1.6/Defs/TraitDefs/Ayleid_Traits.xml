@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Ayleid_Star_Reader</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>star reader</label>
+                <description>Trained to read Aetherius through the gaps in the sky. They always know where the stars lie, even through a stone roof, and it colors the way they think.</description>
+                <statOffsets>
+                    <ESCP_MagickaMax>25</ESCP_MagickaMax>
+                    <ResearchSpeed>0.08</ResearchSpeed>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Ayleid_Courtier</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>flower court noble</label>
+                <description>Raised at a Flower King's court, where a compliment and a threat are the same sentence. Others do as they ask, often without working out why.</description>
+                <statOffsets>
+                    <SocialImpact>0.1</SocialImpact>
+                    <NegotiationAbility>0.08</NegotiationAbility>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Ayleid_Daedra_Sworn</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Daedra-sworn</label>
+                <description>Pledged to a Daedric lord through rites that tend to leave scars. They fight without much concern for their own skin, because that was part of the agreement.</description>
+                <statOffsets>
+                    <PainShockThreshold>0.12</PainShockThreshold>
+                    <MeleeHitChance>4</MeleeHitChance>
+                </statOffsets>
+                <skillGains>
+                    <Melee>2</Melee>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Ayleid_Flower_Kings"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>White-Gold Tower</li>
+                    <li>Ceyatatar</li>
+                    <li>Sedor</li>
+                    <li>Vilverin</li>
+                    <li>Malada</li>
+                    <li>Varsa Baalim</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>AridShrubland</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Nenalata"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Nenalata</li>
+                    <li>Bisnensel</li>
+                    <li>Beldaburo</li>
+                    <li>Nenyond Twyll</li>
+                    <li>Wendelbek</li>
+                    <li>Lindai</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>TemperateSwamp</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

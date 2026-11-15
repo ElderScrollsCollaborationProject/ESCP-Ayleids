@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_FlowerKings_Enlist_Letter_Title>In service to the Flower Kings</ESCP_FlowerKings_Enlist_Letter_Title>
+    <ESCP_FlowerKings_Enlist_Letter_Label>The colony now serves the Ayleid Flower Kings. They pay in coin and in welkynd light.</ESCP_FlowerKings_Enlist_Letter_Label>
+    <ESCP_FlowerKings_Enlist_Button_Label>Serve the Flower Kings</ESCP_FlowerKings_Enlist_Button_Label>
+    <ESCP_FlowerKings_Enlist_Button_Desc>Offer the colony's service to the Ayleid kings of Cyrodiil.</ESCP_FlowerKings_Enlist_Button_Desc>
+    <ESCP_FlowerKings_Enlist_Requrements_Not_Satisfied>The Flower Kings see no worth in you yet. Standing: {0}.</ESCP_FlowerKings_Enlist_Requrements_Not_Satisfied>
+    <ESCP_FlowerKings_Enlisted_To_Hostile_Faction>The Flower Kings do not accept the service of their enemies.</ESCP_FlowerKings_Enlisted_To_Hostile_Faction>
+    <ESCP_FlowerKings_Enlisted_With_Key>Serves the Flower Kings</ESCP_FlowerKings_Enlisted_With_Key>
+    <ESCP_FlowerKings_Missions_Label>Royal commands</ESCP_FlowerKings_Missions_Label>
+    <ESCP_FlowerKings_Missions_Desc>See what the kings demand.</ESCP_FlowerKings_Missions_Desc>
+    <ESCP_FlowerKings_Menu_Missions_Desc>Commands from the Ayleid courts. Paid when obeyed.</ESCP_FlowerKings_Menu_Missions_Desc>
+    <ESCP_FlowerKings_Menu_Missions_Select_Quest>Select a job</ESCP_FlowerKings_Menu_Missions_Select_Quest>
+    <ESCP_FlowerKings_Menu_Missions_Start_Quest>Accept</ESCP_FlowerKings_Menu_Missions_Start_Quest>
+    <ESCP_FlowerKings_Menu_Missions_Collect_Bounty>Collect</ESCP_FlowerKings_Menu_Missions_Collect_Bounty>
+    <ESCP_FlowerKings_Provisions_Label>Draw supplies</ESCP_FlowerKings_Provisions_Label>
+    <ESCP_FlowerKings_Provisions_Desc>Food and herbs from the Ayleid cities.</ESCP_FlowerKings_Provisions_Desc>
+    <ESCP_FlowerKings_Storage_Label>Ayleid vault</ESCP_FlowerKings_Storage_Label>
+    <ESCP_FlowerKings_Storage_Desc>Leave goods in an Ayleid vault.</ESCP_FlowerKings_Storage_Desc>
+    <ESCP_FlowerKings_Resign_Menu_Text>Leave the Flower Kings' service?</ESCP_FlowerKings_Resign_Menu_Text>
+    <ESCP_FlowerKings_Resign_Letter_Title>Left the Flower Kings</ESCP_FlowerKings_Resign_Letter_Title>
+    <ESCP_FlowerKings_Resign_Letter_Label>The colony has left the service of the Flower Kings.</ESCP_FlowerKings_Resign_Letter_Label>
+    <ESCP_FlowerKings_Resign_Button_Label>Leave their service</ESCP_FlowerKings_Resign_Button_Label>
+    <ESCP_FlowerKings_Resign_Button_Desc>End your service to the Ayleid kings.</ESCP_FlowerKings_Resign_Button_Desc>
+    <ESCP_FlowerKings_Kick_Out_Letter_Title>Dismissed by the Flower Kings</ESCP_FlowerKings_Kick_Out_Letter_Title>
+    <ESCP_FlowerKings_Kick_Out_Label_Title>The Flower Kings have no further use for the colony.</ESCP_FlowerKings_Kick_Out_Label_Title>
+    <ESCP_FlowerKings_Salary_Label>Collect your pay</ESCP_FlowerKings_Salary_Label>
+    <ESCP_FlowerKings_Salary_Desc>Coin from the Ayleid treasuries.</ESCP_FlowerKings_Salary_Desc>
+    <ESCP_FlowerKings_Work_0_Label>Tend the welkynd stones</ESCP_FlowerKings_Work_0_Label>
+    <ESCP_FlowerKings_Work_0_Desc>Keep the light stones of an Ayleid city charged.</ESCP_FlowerKings_Work_0_Desc>
+    <ESCP_FlowerKings_Work_1_Label>Guard the city</ESCP_FlowerKings_Work_1_Label>
+    <ESCP_FlowerKings_Work_1_Desc>Stand watch at an Ayleid city's gates.</ESCP_FlowerKings_Work_1_Desc>
+
+</LanguageData>

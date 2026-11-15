@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Ayleid_Starlit</defName>
+        <label>starlit blood</label>
+        <description>Ayleid sorcery drew on the light of Aetherius, caught and stored in Welkynd stones. Those of the blood hold that light easily, and they can drink deep of it when pressed.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <ESCP_MagickaMax>35</ESCP_MagickaMax>
+            <ESCP_MagickaRegen>0.08</ESCP_MagickaRegen>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Ayleid_Welkynd_Draw</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Ayleid_Marble</defName>
+        <label>marble architect</label>
+        <description>Ayleid ruins still stand across Cyrodiil with their vaults intact. Carriers think in arcs and load paths, and they build quickly and well.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <ConstructionSpeed>0.2</ConstructionSpeed>
+            <ResearchSpeed>0.05</ResearchSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Ayleid_Flower_King</defName>
+        <label>Flower King's manner</label>
+        <description>Ayleid lords ruled through ceremony and terror, generally both in the same afternoon. Others find this person very difficult to refuse.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <SocialImpact>0.1</SocialImpact>
+            <NegotiationAbility>0.08</NegotiationAbility>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

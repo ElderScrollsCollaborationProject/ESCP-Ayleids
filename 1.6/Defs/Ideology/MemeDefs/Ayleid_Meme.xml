@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_FlowerCourts</defName>
+        <label>Flower Courts</label>
+        <description>The stars are the holes through which the true light falls, and we learned how to catch it. Every city we raised is a working instrument. The lower races carry the stones and the gods take their due. Do not confuse any of this with cruelty. It is simply correct.</description>
+        <iconPath>UI/Structures/ESCP_OriginDivinesEight</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>Slavery_Honorable</li>
+                <li>Slavery_Acceptable</li>
+            </li>
+            <li>
+                <li>Research_Fast</li>
+            </li>
+            <li>
+                <li>Execution_RespectedIfGuilty</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

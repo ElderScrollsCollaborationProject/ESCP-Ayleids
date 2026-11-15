@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Nenalata>Lord:</ESCP_Rank_Mentor_Nenalata>
+    <ESCP_Rank_Promote_Nenalata>Rise in Nenalata</ESCP_Rank_Promote_Nenalata>
+    <ESCP_Rank_Promoted_Text_Nenalata>The king of Nenalata favors {0}, now {1} of the court.</ESCP_Rank_Promoted_Text_Nenalata>
+    <ESCP_Rank_Rally_Title_Nenalata>{0} rallies Nenalata</ESCP_Rank_Rally_Title_Nenalata>
+    <ESCP_Rank_Rally_Text_Nenalata>{0} calls on the old blood of Nenalata, and every one of {1} on the field fights to keep it alive.</ESCP_Rank_Rally_Text_Nenalata>
+    <ESCP_Rank_InspectionComplete_Commended_Nenalata>{0} checks {1}'s arms and finds them worthy of the court.</ESCP_Rank_InspectionComplete_Commended_Nenalata>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Nenalata>{0} checks {1}'s arms and wonders how Nenalata has lasted this long.</ESCP_Rank_InspectionComplete_Reprimanded_Nenalata>
+    <ESCP_Rank_PunishmentAssigned_Nenalata>{0} sends {1} to scrub the palace halls.</ESCP_Rank_PunishmentAssigned_Nenalata>
+
+</LanguageData>

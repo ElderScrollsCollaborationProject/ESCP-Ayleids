@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Ayleid_Player</defName>
+        <label>Fallen Court</label>
+        <description>A handful of Ayleid survivors with a Welkynd stone, a long list of dead relatives and a very strong opinion about who should be carrying what.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Ayleid_Settler</basicMemberKind>
+        <pawnSingular>Ayleid</pawnSingular>
+        <pawnsPlural>Ayleids</pawnsPlural>
+        <leaderTitle>Flower King</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.5, 0.65, 0.8)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Ayleid>1</ESCP_Xenotype_Ayleid>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Ayleid</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Ayleid_Child</li>
+                    <li>ESCP_Backstory_Ayleid_Citizen</li>
+                    <li>ESCP_Backstory_Ayleid_Military</li>
+                    <li>ESCP_Backstory_Ayleid_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
+</Defs>

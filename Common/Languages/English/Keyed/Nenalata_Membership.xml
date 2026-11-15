@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Nenalata_Enlist_Letter_Title>In service to King Dynar</ESCP_Nenalata_Enlist_Letter_Title>
+    <ESCP_Nenalata_Enlist_Letter_Label>The colony now serves the Kingdom of Nenalata. Dynar treats his allies fairly.</ESCP_Nenalata_Enlist_Letter_Label>
+    <ESCP_Nenalata_Enlist_Button_Label>Serve King Dynar</ESCP_Nenalata_Enlist_Button_Label>
+    <ESCP_Nenalata_Enlist_Button_Desc>Offer the colony's service to Laloriaran Dynar, the last Ayleid king.</ESCP_Nenalata_Enlist_Button_Desc>
+    <ESCP_Nenalata_Enlist_Requrements_Not_Satisfied>Nenalata is not sure of you. Standing: {0}.</ESCP_Nenalata_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Nenalata_Enlisted_To_Hostile_Faction>Nenalata does not accept the service of its enemies.</ESCP_Nenalata_Enlisted_To_Hostile_Faction>
+    <ESCP_Nenalata_Enlisted_With_Key>Serves King Dynar</ESCP_Nenalata_Enlisted_With_Key>
+    <ESCP_Nenalata_Missions_Label>The king's requests</ESCP_Nenalata_Missions_Label>
+    <ESCP_Nenalata_Missions_Desc>See what King Dynar needs.</ESCP_Nenalata_Missions_Desc>
+    <ESCP_Nenalata_Menu_Missions_Desc>Requests from the court of Nenalata. Paid when done.</ESCP_Nenalata_Menu_Missions_Desc>
+    <ESCP_Nenalata_Menu_Missions_Select_Quest>Select a job</ESCP_Nenalata_Menu_Missions_Select_Quest>
+    <ESCP_Nenalata_Menu_Missions_Start_Quest>Accept</ESCP_Nenalata_Menu_Missions_Start_Quest>
+    <ESCP_Nenalata_Menu_Missions_Collect_Bounty>Collect</ESCP_Nenalata_Menu_Missions_Collect_Bounty>
+    <ESCP_Nenalata_Provisions_Label>Draw supplies</ESCP_Nenalata_Provisions_Label>
+    <ESCP_Nenalata_Provisions_Desc>Food and medicine from Nenalata.</ESCP_Nenalata_Provisions_Desc>
+    <ESCP_Nenalata_Storage_Label>Nenalata vault</ESCP_Nenalata_Storage_Label>
+    <ESCP_Nenalata_Storage_Desc>Leave goods in Nenalata.</ESCP_Nenalata_Storage_Desc>
+    <ESCP_Nenalata_Resign_Menu_Text>Leave King Dynar's service?</ESCP_Nenalata_Resign_Menu_Text>
+    <ESCP_Nenalata_Resign_Letter_Title>Left Nenalata</ESCP_Nenalata_Resign_Letter_Title>
+    <ESCP_Nenalata_Resign_Letter_Label>The colony has left the service of King Dynar.</ESCP_Nenalata_Resign_Letter_Label>
+    <ESCP_Nenalata_Resign_Button_Label>Leave his service</ESCP_Nenalata_Resign_Button_Label>
+    <ESCP_Nenalata_Resign_Button_Desc>End your service to Nenalata.</ESCP_Nenalata_Resign_Button_Desc>
+    <ESCP_Nenalata_Kick_Out_Letter_Title>Dismissed by Nenalata</ESCP_Nenalata_Kick_Out_Letter_Title>
+    <ESCP_Nenalata_Kick_Out_Label_Title>Nenalata has turned the colony away.</ESCP_Nenalata_Kick_Out_Label_Title>
+    <ESCP_Nenalata_Salary_Label>Collect your pay</ESCP_Nenalata_Salary_Label>
+    <ESCP_Nenalata_Salary_Desc>Coin from Nenalata's treasury.</ESCP_Nenalata_Salary_Desc>
+    <ESCP_Nenalata_Work_0_Label>Guard Nenalata</ESCP_Nenalata_Work_0_Label>
+    <ESCP_Nenalata_Work_0_Desc>Stand watch over the last Ayleid kingdom.</ESCP_Nenalata_Work_0_Desc>
+    <ESCP_Nenalata_Work_1_Label>Study meteoric glass</ESCP_Nenalata_Work_1_Label>
+    <ESCP_Nenalata_Work_1_Desc>Learn how the Ayleids worked meteoric glass.</ESCP_Nenalata_Work_1_Desc>
+
+</LanguageData>

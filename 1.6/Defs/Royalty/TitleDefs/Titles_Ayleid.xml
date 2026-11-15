@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Ayleid_Citizen</defName>
+        <label>free citizen</label>
+        <description>An Ayleid of a recognized house, entitled to own slaves and to be ignored by a noble.</description>
+        <tags>
+            <li>ESCP_Title_Ayleid</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Ayleid_Keeper</defName>
+        <label>well keeper</label>
+        <description>Keeper of a city's Ayleid well, whose duty is to see that the starlight is gathered and to let others know who gathered it.</description>
+        <tags>
+            <li>ESCP_Title_Ayleid</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Ayleid_Lord</defName>
+        <label>flower lord</label>
+        <description>Holder of a district in a city, with slaves, retainers and a seat at the king's less pleasant meetings.</description>
+        <tags>
+            <li>ESCP_Title_Ayleid</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Ayleid_Sorcerer</defName>
+        <label>sorcerer-lord</label>
+        <description>A lord who has made bargains that the court pretends not to know about, and whom nobody crosses.</description>
+        <tags>
+            <li>ESCP_Title_Ayleid</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

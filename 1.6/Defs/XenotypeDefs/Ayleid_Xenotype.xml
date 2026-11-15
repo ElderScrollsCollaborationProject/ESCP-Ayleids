@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerStandardHead">
+        <defName>ESCP_Xenotype_Ayleid</defName>
+        <label>Ayleid</label>
+        <iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+        <description>The Heartland High Elves who ruled Cyrodiil from White-Gold Tower, and raised their cities around wells of starlight. They were architects of pale marble, students of the stars, and in many cities devoted servants of the Daedra. They kept human slaves in numbers and in ways that the histories hate to describe, and Alessia's rebellion brought it all down.</description>
+        <descriptionShort>The Wild Elves of Cyrodiil: starlight sorcerers, marble builders and cruel masters.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Ayleid_Starlit</li>
+            <li>ESCP_Gene_Ayleid_Marble</li>
+            <li>ESCP_Gene_Ayleid_Flower_King</li>
+            <li>Skin_PaleYellow</li>
+            <li>Beard_NoBeardOnly</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

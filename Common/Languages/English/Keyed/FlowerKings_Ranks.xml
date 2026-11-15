@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_FlowerKings>Sorcerer:</ESCP_Rank_Mentor_FlowerKings>
+    <ESCP_Rank_Promote_FlowerKings>Rise in the Court</ESCP_Rank_Promote_FlowerKings>
+    <ESCP_Rank_Promoted_Text_FlowerKings>The sorcerer-king permits it. {0} rises to {1}.</ESCP_Rank_Promoted_Text_FlowerKings>
+    <ESCP_Rank_Rally_Title_FlowerKings>{0} calls down starlight</ESCP_Rank_Rally_Title_FlowerKings>
+    <ESCP_Rank_Rally_Text_FlowerKings>{0} calls down the light of the stars, and every one of {1} on the field burns with it.</ESCP_Rank_Rally_Text_FlowerKings>
+    <ESCP_Rank_InspectionComplete_Commended_FlowerKings>{0} inspects {1}'s raiment and finds it fitting for the Heartland.</ESCP_Rank_InspectionComplete_Commended_FlowerKings>
+    <ESCP_Rank_InspectionComplete_Reprimanded_FlowerKings>{0} inspects {1}'s raiment and calls it fit for a Nede.</ESCP_Rank_InspectionComplete_Reprimanded_FlowerKings>
+    <ESCP_Rank_PunishmentAssigned_FlowerKings>{0} sends {1} to polish the Welkynd stones.</ESCP_Rank_PunishmentAssigned_FlowerKings>
+
+</LanguageData>
