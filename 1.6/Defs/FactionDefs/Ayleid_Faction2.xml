@@ -168,6 +168,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_Nenalata</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_Nenalata</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Nenalata</li>
+                    <li>Bisnensel</li>
+                    <li>Beldaburo</li>
+                    <li>Nenyond Twyll</li>
+                    <li>Wendelbek</li>
+                    <li>Lindai</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>TemperateSwamp</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 

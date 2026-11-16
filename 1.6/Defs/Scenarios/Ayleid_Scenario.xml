@@ -55,6 +55,14 @@
                 </li>
             </parts>
         </scenario>
+        <modExtensions>
+            <li Class="ESCP.Core.ScenarioEras">
+                <eras>
+                    <li>1</li>
+                    <li>2</li>
+                </eras>
+            </li>
+        </modExtensions>
     </ScenarioDef>
 
 </Defs>

@@ -168,6 +168,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_FlowerKings</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_FlowerKings</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>White-Gold Tower</li>
+                    <li>Ceyatatar</li>
+                    <li>Sedor</li>
+                    <li>Vilverin</li>
+                    <li>Malada</li>
+                    <li>Varsa Baalim</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>AridShrubland</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 
