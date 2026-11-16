@@ -189,7 +189,7 @@
         <slot>Adulthood</slot>
         <title>Sancre Tor defender</title>
         <titleShort>Defender</titleShort>
-        <description>[PAWN_nameDef] was at Sancre Tor when the Nords and the slave armies came up the walls. Nearly everyone with any sense has stopped asking [PAWN_objective] about it.</description>
+        <description>[PAWN_nameDef] was at Sancre Tor when the Nords and the slave armies came up the walls. Most people learn not to ask [PAWN_objective] about it.</description>
         <spawnCategories>
             <li>ESCP_Backstory_Ayleid_Military</li>
         </spawnCategories>
